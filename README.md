@@ -14,10 +14,7 @@ To Create a project on Time series analysis on weather forecasting using ARIMA m
 6.Plot both the actual FinalGrade values and the forecasted values to visualize the model's performance. 
 7.Print the forecasted values to assess the model's accuracy against the actual test data.
 ### PROGRAM:
-
-```
-
-# Import necessary libraries
+```# Import necessary libraries
 import pandas as pd
 import numpy as np
 from statsmodels.tsa.arima.model import ARIMA
@@ -57,11 +54,8 @@ plt.xlabel('Index')
 plt.ylabel('Final Grade')
 plt.legend()
 plt.show()
-
 # Print the forecasted values
 print("Forecasted Final Grade values:", forecast)
-
-
 ```
 
 ### OUTPUT:
